@@ -1,0 +1,22 @@
+@import '../themes/variable.scss'; 
+
+
+    .appheader{ 
+        z-index: 1;
+        background-color: $light  ;
+        position:fixed; 
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        .logo{
+            font-weight: bold;
+            margin-left: 20px;
+        }
+
+        .navmenu a{
+            margin-right: 20px;
+        }
+      }

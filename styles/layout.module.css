@@ -1,0 +1,26 @@
+.layoutContainer .container {
+  background-color: #fff;
+  margin: auto;
+  max-width: 1050px;
+  padding: 0px 30px 0px 30px;
+}
+
+.layoutContainer .footer {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (min-width: 550px) and (max-width: 767px) {
+  .layoutContainer .container {
+    padding: 0 90px 0px 90px;
+  }
+}
+/*# sourceMappingURL=layout.module.css.map */
