@@ -5,12 +5,12 @@ export default function AppHeader() {
   return (
     <div className={styles.appheader}>
       <div className={styles.logo}>
-        <Link href="/">Patrice Edimo</Link>
+        <Link href='/'>P.E.</Link>
       </div>
       <div className={styles.navmenu}>
-        <Link href="/">Home</Link>
-        <Link href="/projects">Projektes</Link>
-        <Link href="/contact">Kontakt</Link>
+        <Link href='/'>Home</Link>
+        <Link href='/projects'>Projektes</Link>
+        <Link href='/contact'>Kontakt</Link>
       </div>
     </div>
   );
