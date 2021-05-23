@@ -9,7 +9,7 @@ export default function AppHeader() {
       </div>
       <div className={styles.navmenu}>
         <Link href='/'>Home</Link>
-        <Link href='/projects'>Projektes</Link>
+        <Link href='/projects'>Projekte</Link>
         <Link href='/contact'>Kontakt</Link>
       </div>
     </div>

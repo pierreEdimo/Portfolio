@@ -25,9 +25,9 @@ export default function Home({ projects }) {
           <div className={styles.space}></div>
           <div className={styles.colzwei}>
             <p>
-              Programmieren ist mein Leidenschaft. Ich bin ein Full Stack
+              Programmieren ist meine Leidenschaft. Ich bin ein Full Stack
               entwicker. Ich entwickle sowohl Web-und Mobile Anwendungen für
-              Endkunden. Ich stecke vie Mühe in alle meine Projekte, um
+              Endkunden. Ich stecke viel Mühe in alle meine Projekte, um
               hochqualitative und einzigartige Anwendungen zu entwickeln.
             </p>
             <div className= {styles.space} ></div>
@@ -51,7 +51,7 @@ export default function Home({ projects }) {
         <div className={styles.space} ></div>
 
         <div className={styles.buttonContainer}>
-          <Link href="/projects"> Mehr Projektes </Link>
+          <Link href="/projects"> Mehr Projekte </Link>
          </div>
         
       </div>
