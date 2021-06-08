@@ -8,7 +8,7 @@ export default function Home({ projects }) {
     <Layout>
       <div className={styles.homecontainer}>
         <div className={styles.banner}>
-          <h2 className={styles.name}>Patrice Edimo</h2>
+          <h2 className={styles.name}>Pierre Patrice Edimo</h2>
           <h1>Fullstack Entwickler</h1>
           <h1>Ich entwickle Web-und Mobile Anwendungen</h1>
         </div>
