@@ -19,7 +19,7 @@ It was created in order to display all the projects i have worked on.
 - Strapi - a Headless CMS built on Node js
 
 ## Illustration
-
+![](https://github.com/pierreEdimo/portfolio/blob/main/image/portfolio.PNG)
 
 
 ## Project Status
