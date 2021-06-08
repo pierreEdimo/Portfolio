@@ -10,7 +10,7 @@ export default function Layout({ title, children }) {
         <title>{title}</title>
       </Head>
       <AppHeader />
-      <div className={styles.container}>{children}</div>
+      <div className="container" >{children}</div>
       <div>
         <AppFooter/>
       </div>
