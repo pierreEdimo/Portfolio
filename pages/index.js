@@ -18,7 +18,7 @@ export default function Home({ projects }) {
         <div className={styles.content}>
           <div className={styles.coleins}>
             <img
-              src="https://scontent-frt3-1.xx.fbcdn.net/v/t1.6435-9/90518767_1310718185782966_571065865357754368_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=730e14&_nc_ohc=IOvjCKUsW1wAX-afvli&_nc_oc=AQkOfTFafyDLV4_m-w6JmzZwBfRVfF5umdlzKf10ql1KcTJkYYo4q4CNsLHnVlXzfus&_nc_ht=scontent-frt3-1.xx&oh=66354d56c54089f09f73753bb6c0dc11&oe=60C4D1F6"
+              src="https://res.cloudinary.com/duouo355d/image/upload/v1623132109/pierre_vr7crm.png"
               alt="me"
             />
           </div>
