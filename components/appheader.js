@@ -20,6 +20,11 @@ export default function AppHeader() {
             <Link href="https://github.com/pierreEdimo?tab=repositories" ><i className="fab fa-github"/></Link>
           </div>
         </div>
+        <div className={styles.menuMobile} >
+            <Link href="#home" >Home</Link>
+            <Link  href="#projects">Projekt</Link>
+            <Link  href="#about">Über mich</Link>
+        </div>
       </div>
     </div>
   );

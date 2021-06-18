@@ -72,3 +72,32 @@
 .spacing{
     width: 4%;
 }
+
+
+@media(max-width:767px){
+    .gridContainer{
+        grid-template-columns: 100%;
+    }
+
+    .more{
+        margin-top: 10em;
+    }
+
+    .flexContainer{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .textContainer{
+        width: 100%;
+    }
+
+    .textContainer{
+        text-align: left;
+    }
+
+    .imageContainer{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+}

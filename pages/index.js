@@ -35,7 +35,7 @@ export default function Home({ projects }) {
         <div className={styles.flexContainer}>
           <div className={styles.imageContainer}>
             <img
-              src="https://res.cloudinary.com/duouo355d/image/upload/v1623132109/pierre_vr7crm.png"
+              src="https://res.cloudinary.com/duouo355d/image/upload/v1624021556/pierre_rfwfgv.png"
               alt="my-picture"
             />
           </div>

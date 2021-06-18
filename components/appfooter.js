@@ -12,7 +12,7 @@ export default function AppFooter() {
           <span>Email : </span> pierredimo@live.com
         </p>
       </div>
-      <div className="menu-icon">
+      <div className={styles.footerIcon}>
         <Link href="https://www.linkedin.com/in/pierre-edimo-nkoe-442868140/">
           <i className="fab fa-linkedin-in" />
         </Link>

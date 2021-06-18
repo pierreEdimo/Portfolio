@@ -19,3 +19,25 @@
 }
 
 
+@media(max-width:767px){
+    .menu{
+        display: none;
+    }
+
+    .menuMobile{
+        background-color:#0f1624;
+        height: 70px;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media(min-width:768px){
+    .menuMobile{
+        display: none;
+    }
+}
+
+
