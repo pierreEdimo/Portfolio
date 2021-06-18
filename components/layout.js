@@ -1,23 +1,14 @@
-import Head from "next/head";
-import styles from "../styles/layout.module.css";
 import AppHeader from "./appheader";
-import AppFooter from "./appfooter"; 
+import AppFooter from "./appfooter";
 
-export default function Layout({ title, children }) {
+export default function Layout({ children }) {
   return (
-    <div className={styles.layoutContainer}>
-      <Head>
-        <title>{title}</title>
-      </Head>
+    <div className="container-fluid">
       <AppHeader />
-      <div className="container" >{children}</div>
-      <div>
-        <AppFooter/>
+      <div className="container">{children}</div>
+      <div className="container">
+        <AppFooter />
       </div>
     </div>
   );
 }
-
-Layout.defaultProps = {
-  title: "Patrice Edimo",
-};

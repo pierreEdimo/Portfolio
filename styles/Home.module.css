@@ -1,161 +1,74 @@
-.homecontainer {
-  position: relative;
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
+.bannerContainer{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+ }
 
-.homecontainer .banner .name {
-  text-transform: uppercase;
-  font-size: 18px;
-  margin-bottom: 2em;
-  line-height: 1.4em;
-  font-weight: 400;
-  letter-spacing: .07em;
-  height: auto;
-}
-
-.infocontainer {
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.infocontainer .content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.infocontainer .content .coleins {
-  width: 47.5%;
-}
-
-.infocontainer .content .coleins img {
-  width: 100%;
-  height: auto;
-}
-
-.infocontainer .content .colzwei {
-  width: 47.5%;
-}
-
-.infocontainer .content .colzwei img {
-  width: 100%;
-  height: auto;
-}
-
-.infocontainer .content .colzwei a {
-  margin-right: 30px;
-  padding: 10px;
-  border: 1px solid #000;
-  border-radius: 5px;
-}
-
-.infocontainer .content .colzwei a:hover {
-  background-color: #000;
-  color: #fff;
-}
-
-.infocontainer .content .space {
-  width: 5%;
-}
-
-.flexContainer {
-  height: 100vh;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.flexContainer .homeGricontainer {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 47.5% 47.5%;
-      grid-template-columns: 47.5% 47.5%;
-  grid-column-gap: 5%;
-}
-
-.flexContainer .buttonContainer {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.flexContainer a {
-  margin-right: 30px;
-  padding: 10px;
-  border: 1px solid #000;
-  border-radius: 5px;
-}
-
-.flexContainer a:hover {
-  background-color: #000;
-  color: #fff;
-}
-
-.space {
-  height: 40px;
-}
-
-@media (max-width: 767px) {
-  .infocontainer {
+ .name{
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    margin-bottom: 2em;
+    color: #71798f;
+    font-weight: 400;
+    letter-spacing: .07em;
     height: auto;
-  }
-  .infocontainer .content {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .infocontainer .content .coleins {
-    width: 100%;
-  }
-  .infocontainer .content .colzwei {
-    width: 100%;
-  }
-  .infocontainer .content .space {
-    height: 20px;
-  }
-  .mobilespace {
-    height: 80px;
-  }
-  .space {
-    height: 80px;
-  }
-  .flexContainer {
-    height: auto;
-  }
-  .flexContainer .homeGricontainer {
-    -ms-grid-columns: 100%;
-        grid-template-columns: 100%;
-    grid-gap: 5%;
-  }
+ }
+
+ .begruessung{
+     font-size: 24px;
+     font-weight: bolder;
+     
+ }
+
+
+
+ .title{
+     margin-bottom: 2em ;
+     font-weight: bolder;
+ }
+
+
+
+ .gridContainer{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-gap: 4%;
 }
-/*# sourceMappingURL=Home.module.css.map */
+
+.more{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    margin-top: 40px;
+ 
+}
+
+
+.flexContainer{
+    display: flex;
+    
+    align-items: center;
+}
+
+.imageContainer{
+    width: 48%;
+}
+
+.imageContainer img{
+    width: 100%;
+    height: auto;
+}
+
+.textContainer{
+    width: 48%;
+}
+
+.spacing{
+    width: 4%;
+}
