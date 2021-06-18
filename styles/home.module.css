@@ -20,6 +20,7 @@
  .begruessung{
      font-size: 24px;
      font-weight: bolder;
+     color: rgb(242, 245, 247);
      
  }
 
@@ -58,11 +59,14 @@
 
 .imageContainer{
     width: 48%;
+   
 }
 
 .imageContainer img{
     width: 100%;
     height: auto;
+    border-radius: 50%;
+    vertical-align: middle;
 }
 
 .textContainer{

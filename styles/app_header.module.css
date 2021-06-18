@@ -20,17 +20,27 @@
 
 
 @media(max-width:767px){
+     .appHeader{
+         height: 40px;
+         position: relative;
+     }
+
     .menu{
         display: none;
+        height: 20px;
     }
 
     .menuMobile{
         background-color:#0f1624;
-        height: 70px;
+        height: 40px;
         z-index: 1;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        
     }
 }
 

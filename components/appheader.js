@@ -12,7 +12,7 @@ export default function AppHeader() {
           </div>
           <div className={styles.menu} >
             <Link href="#home" >Home</Link>
-            <Link  href="#projects">Projekt</Link>
+            <Link  href="#projects">Projekte</Link>
             <Link  href="#about">Über mich</Link>
           </div>
           <div className="menu-icon">
@@ -20,7 +20,7 @@ export default function AppHeader() {
             <Link href="https://github.com/pierreEdimo?tab=repositories" ><i className="fab fa-github"/></Link>
           </div>
         </div>
-        <div className={styles.menuMobile} >
+        <div className={styles.menuMobile} id="navbar" >
             <Link href="#home" >Home</Link>
             <Link  href="#projects">Projekt</Link>
             <Link  href="#about">Über mich</Link>
@@ -29,3 +29,6 @@ export default function AppHeader() {
     </div>
   );
 }
+
+
+

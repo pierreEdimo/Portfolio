@@ -3,6 +3,7 @@ import Link from "next/link";
 import ProjectItem from "../components/projectItem";
 import styles from "../styles/home.module.css";
 
+
 export default function Home({ projects }) {
   return (
     <Layout>
@@ -16,7 +17,7 @@ export default function Home({ projects }) {
       </section>
       <section className={styles.projectContainer}  id="projects" >
         <hr />
-        <h1 className={styles.title}>Projekts</h1>
+        <h1 className={styles.title}>Projekte</h1>
 
         <div className={styles.gridContainer}>
           {projects.map((project) => (
@@ -25,7 +26,7 @@ export default function Home({ projects }) {
         </div>
 
         <div className={styles.more}>
-          <Link href="/project">Mehr</Link>
+          <Link href="https://github.com/pierreEdimo?tab=repositories">Mehr</Link>
         </div>
       </section>
 
